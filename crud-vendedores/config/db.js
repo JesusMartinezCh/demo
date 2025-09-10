@@ -8,7 +8,7 @@ const pool = mysql.createPool({
   port: 23986,
   waitForConnections: true,
   connectionLimit: 10,
-  queueLimit: 0,S
+  queueLimit: 0,
 });
 
 // Función para probar la conexión
